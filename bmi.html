@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI Calculator</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- main -->
+    <link rel="stylesheet" href="css/bmi.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/BMICLogo.png" alt="BMICLogo">
+        </div>
+        <div class="input-group">
+            <label>
+                <p>身高 cm</p>
+                <input id="height" type="number" placeholder="請輸入身高">
+            </label>
+            <label>
+                <p>體重 kg</p>
+                <input id="weight" type="number" placeholder="請輸入體重">
+            </label>
+        </div>
+        <div id="btnCalc" class="btn-calc">
+            <div class="result">
+                <p id="bmiResult">看結果</p>
+                <p class="small">BMI</p>
+                <p id="status" class="status">理想</p>
+            </div>
+            <div class="icon-loop"></div>
+        </div>
+    </header>
+
+    <section class="sec-record">
+        <div class="title">BMI 紀錄</div>
+        <div id="records" class="wrapper">
+            <!-- <div class="record">
+                <div class="status">理想</div>
+                <div class="bmi">
+                    <span class="fz-small">BMI</span>
+                    <span>20.90</span>
+                </div>
+                <div class="weight">
+                    <span class="fz-small">weight</span>
+                    <span>70kg</span>
+                </div>
+                <div class="height">
+                    <span class="fz-small">height</span>
+                    <span>180cm</span>
+                </div>
+                <div class="date fz-small">06-19-2017</div>
+            </div>
+            <div class="record"></div> -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="images/BMICLogo.png" alt="BMICLogo">
+    </footer>
+
+
+
+    <script src="js/bmi.js"></script>
+</body>
+</html>
